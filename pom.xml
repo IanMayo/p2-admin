@@ -8,10 +8,11 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <properties>
-    <tycho-version>0.21.0-SNAPSHOT</tycho-version>
-    <tycho-extras-version>0.21.0-SNAPSHOT</tycho-extras-version>
-  </properties>
+	<properties>
+		<tycho-version>1.4.0</tycho-version>
+		<tycho-extras-version>1.4.0</tycho-extras-version>
+
+	</properties>
 
   <modules>
   	<module>org.eclipselabs.equinox.p2.moreapps</module>
@@ -27,8 +28,8 @@
 
   <repositories>
 	<repository>
-	   <id>eclipse-luna</id>
-	   <url>http://download.eclipse.org/releases/luna</url>
+	   <id>2019-09</id>
+	   <url>http://download.eclipse.org/releases/2019-09</url>
 	   <layout>p2</layout>
 	</repository>
   </repositories>
@@ -49,17 +50,7 @@
             <environment>
               <os>win32</os>
               <ws>win32</ws>
-              <arch>x86</arch>
-            </environment>
-            <environment>
-              <os>win32</os>
-              <ws>win32</ws>
               <arch>x86_64</arch>
-            </environment>
-            <environment>
-              <os>linux</os>
-              <ws>gtk</ws>
-              <arch>x86</arch>
             </environment>
             <environment>
               <os>linux</os>
